@@ -9,9 +9,9 @@ import (
 	"github.com/Jack301/chat_tool/chat_server/api"
 	"github.com/Jack301/chat_tool/chat_server/core/debug"
 	"github.com/Jack301/chat_tool/chat_server/core/log"
+	_ "github.com/Jack301/chat_tool/chat_server/core/mysql"
 	"github.com/Jack301/chat_tool/chat_server/core/net"
 	_ "github.com/Jack301/chat_tool/chat_server/module/handleMessage"
-	_ "github.com/Jack301/chat_tool/mysql"
 )
 
 var (
